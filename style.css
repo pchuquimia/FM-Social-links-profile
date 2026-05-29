@@ -37,7 +37,7 @@ body {
 .card {
   width: min(100%, 21.875rem);
   padding-block: 2rem;
-  padding-inline: 1.3rem;
+  padding-inline: clamp(1rem, 5vw, 1.5rem);
   text-align: center;
   background-color: var(--grey-800);
   border-radius: 0.75rem;
