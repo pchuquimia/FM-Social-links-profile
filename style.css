@@ -36,7 +36,7 @@ body {
 
 .card {
   width: min(100%, 21.875rem);
-  padding-block: 2rem;
+  padding-block: clamp(1.5rem, 5vw, 2.5rem);
   padding-inline: clamp(1.3rem, 5vw, 2rem);
   text-align: center;
   background-color: var(--grey-800);
