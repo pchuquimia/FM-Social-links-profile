@@ -31,13 +31,13 @@ body {
   justify-content: center;
   align-items: center;
   min-block-size: 100vh;
-  padding-inline: 1.5rem;
+  padding-inline: clamp(1rem, 5vw, 1.5rem);
 }
 
 .card {
   width: min(100%, 21.875rem);
   padding-block: 2rem;
-  padding-inline: clamp(1rem, 5vw, 1.5rem);
+  padding-inline: clamp(1.3rem, 5vw, 2rem);
   text-align: center;
   background-color: var(--grey-800);
   border-radius: 0.75rem;
